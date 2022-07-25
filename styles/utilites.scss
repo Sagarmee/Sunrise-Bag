@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=IBM+Plex+Serif:wght@200;300&family=Lato:wght@300;400&family=Noto+Sans&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Poppins:wght@200;300&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
+
+$torquise-color:#4cbfa6;
+$soflilac-color:#f6ebf4;
+$purple-color:#482673;
+$Orchid-color: #ed0b70;
+$dark-hover:#190138;
+$DigiDenim-color: #301008;
+$font-family-1:'Baloo Bhai 2',
+cursive;
+$font-family-2: 'IBM Plex Serif',
+serif;
+$font-family-3: 'Lato',
+sans-serif;
+$font-family-4: 'Noto Sans',
+sans-serif;
+$font-family-5: 'Open Sans',
+sans-serif;
+$font-family-6: 'Playfair Display',
+serif;
+$font-family-7: 'Poppins',
+sans-serif;
+$font-family-8: 'Roboto',
+sans-serif;
+$font-family-9: 'Source Sans Pro',
+sans-serif;
+$light-color: floralwhite;
+$border: 1px solid $purple-color;
+
+@mixin background-settings {
+    background-image: linear-gradient(170deg, $soflilac-color, $soflilac-color 50%, $purple-color 50%, $purple-color 100%);
+    background-position: center center;
+}
+
+@font-face {
+    font-family: "Gill Sans Nova Bold";
+    src: url("/fonts/Monotype\ \ -\ Gill\ Sans\ Nova\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "Gill Sans Nova Bold Italic";
+    src: url("./fonts/Monotype\ \ -\ Gill\ Sans\ Nova\ Bold\ Italic.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .container-fluid {
+        max-width: 1200px;
+        width: 90%;
+        margin: auto;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn {
+        border: 0;
+        outline: 0;
+        display: inline-block;
+        border-radius: 10px;
+    }
+}

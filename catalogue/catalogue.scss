@@ -1,0 +1,96 @@
+@import "../styles/nav";
+@import "../styles/footer";
+
+.showcase {
+    height: 85vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/contact\ us\ bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    .showcase-content {
+        color: white;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: contact 2s ease alternate;
+
+
+        h5 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-family: "Gill Sans Nova Bold";
+            letter-spacing: 1px;
+        }
+
+        span {
+            font-size: 2rem;
+            text-transform: capitalize;
+            font-family: $font-family-3;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+#college-bags {
+    min-height: 100vh;
+    background-color: $soflilac-color;
+
+    .title {
+        padding: 2rem 0;
+
+        h5 {
+            font-size: 2.5rem;
+            font-weight: "Gills Sans Nova Bold";
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            color: $purple-color;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .catalogue-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+        padding: 2rem 0;
+
+        .dowload-btn {
+            background-color: #ffffff;
+
+            .down-btn {
+                background-color: $purple-color;
+                width: 100%;
+                color: $soflilac-color;
+                border-radius: 0;
+                text-transform: capitalize;
+                font-size: 1.1rem;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+}
+
+@keyframes contact {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width:800px) {
+    #college-bags {
+        .catalogue-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}

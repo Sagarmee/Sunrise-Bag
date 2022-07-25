@@ -1,0 +1,370 @@
+@import "../styles/nav";
+@import "../styles/footer";
+
+.showcase {
+    height: 85vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/contact\ us\ bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    .showcase-content {
+        color: white;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: contact 2s ease alternate;
+
+
+        h5 {
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-family: "Gill Sans Nova Bold";
+            letter-spacing: 1px;
+        }
+    }
+}
+
+@keyframes contact {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#about {
+    background-color: $soflilac-color;
+    min-height: 100vh;
+
+    .about-heading {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h5 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: $purple-color;
+            font-family: "Gill Sans Nova Bold";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        span {
+            text-align: center;
+            font-size: 2rem;
+            font-family: $font-family-7;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+
+        }
+    }
+
+    .row {
+        .img {
+            width: 300px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .bg-detail {
+            padding: 2rem;
+
+            .sunrise-aboutus {
+                P {
+                    font-size: 1.1rem;
+                    font-family: $font-family-3;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    line-height: 1.8rem;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+
+#mission {
+    min-height: 60vh;
+    background-color: $soflilac-color;
+
+    .row {
+
+        .img {
+            width: 300px;
+
+            img {
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                border-radius: 10px;
+            }
+        }
+
+        .mission {
+
+            .title {
+                h6 {
+                    font-size: 1.4rem;
+                    text-transform: capitalize;
+                    font-family: $font-family-4;
+                    font-weight: 500;
+                    color: $purple-color;
+                    text-transform: 2px;
+                }
+            }
+
+            ul li {
+                list-style: disc;
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+                line-height: 1.7rem;
+                font-family: $font-family-3;
+                text-transform: capitalize;
+                color: $DigiDenim-color;
+            }
+        }
+
+        .vission {
+            padding: 0 2rem;
+
+            h6 {
+                font-size: 1.4rem;
+                text-transform: capitalize;
+                font-family: $font-family-4;
+                font-weight: 500;
+                color: $purple-color;
+                text-transform: 2px;
+            }
+
+            .Vission {
+                p {
+                    font-size: 1.1rem;
+                    font-family: $font-family-3;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    letter-spacing: 1px;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+#winneraword {
+    min-height: 100vh;
+    background-color: $soflilac-color;
+
+    .aword-heading {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h5 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: $purple-color;
+            font-family: "Gill Sans Nova Bold";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        span {
+            text-align: center;
+            font-size: 2rem;
+            font-family: $font-family-7;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+
+        }
+    }
+}
+
+#contact {
+    min-height: 60vh;
+    overflow: hidden;
+    background-color: $purple-color;
+
+    .row {
+        padding: 2.5rem 0;
+
+        .contact-section {
+            padding: 1rem;
+
+            h5 {
+                color: $soflilac-color;
+                text-transform: capitalize;
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            p {
+                color: $soflilac-color;
+                text-transform: capitalize;
+                letter-spacing: 1.5px;
+                font-size: 1rem;
+                font-family: $font-family-3;
+                line-height: 1.3rem;
+                font-weight: 500;
+
+                strong {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .form {
+            form {
+                .one-line {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    padding: 1rem 0;
+
+                    input {
+                        background-color: transparent !important;
+                        display: block;
+                        padding: 0.3rem 0;
+                        margin: 0 2rem 0 0;
+                        border: 1px solid #ffff;
+                    }
+
+                    input:focus {
+                        outline: none;
+                        border: 1px solid rgba(255, 253, 253, 0.5);
+                    }
+
+                    input[type=text] {
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        color: $soflilac-color;
+                    }
+
+                    ::placeholder {
+                        font-size: 0.8rem;
+                        letter-spacing: 1px;
+                        color: $soflilac-color;
+                        text-transform: uppercase;
+                    }
+                }
+
+                div {
+                    textarea {
+                        background-color: transparent !important;
+                        width: 60%;
+                        border: 1px solid #ffff;
+                        border-radius: 5px;
+                        resize: none;
+                    }
+
+                    textarea:focus {
+                        outline: none;
+                        border: 1px solid rgba(252, 252, 252, 0.5);
+                    }
+
+                    textarea[type=text] {
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        color: $purple-color;
+                    }
+
+                    ::placeholder {
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: $soflilac-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:786px) {
+    .showcase .showcase-content h5 {
+        font-size: 1.5rem;
+    }
+
+    #about .about-heading h5 {
+        font-size: 2rem;
+    }
+
+    #about .about-heading span {
+        font-size: 1.5rem;
+    }
+
+    #about .row .img {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #about .row .bg-detail .sunrise-aboutus p {
+        font-size: 1rem;
+    }
+
+    #about .row .bg-detail .sunrise-aboutus p span {
+        display: none;
+    }
+
+    #mission .row .img {
+        width: 100%;
+    }
+
+    #mission .row .mission {
+        margin-bottom: 2rem;
+        padding: 0 2rem;
+    }
+
+    #mission .row .mission ul li {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        letter-spacing: 0px;
+    }
+
+    #mission .row .vission {
+        text-align: center;
+    }
+
+    #mission .row .vission .Vission {
+        text-align: start
+    }
+
+    #mission .row .vission .Vission p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        letter-spacing: 0px;
+    }
+
+    #contact .row .form form .one-line {
+        grid-template-columns: 1fr;
+    }
+
+    #contact .row .form form .one-line div {
+        display: block;
+        padding: 1rem 0;
+    }
+
+    #contact .row .form form .one-line div input {
+        width: 100%;
+    }
+
+    #contact .row .form form div textarea {
+        width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=IBM+Plex+Serif:wght@200;300&family=Lato:wght@300;400&family=Noto+Sans&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Poppins:wght@200;300&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap");
+@font-face {
+  font-family: "Gill Sans Nova Bold";
+  src: url("/fonts/Monotype  - Gill Sans Nova Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gill Sans Nova Bold Italic";
+  src: url("./fonts/Monotype  - Gill Sans Nova Bold Italic.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* .container-fluid {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+* ul {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  list-style: none;
+}
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+* .btn {
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=utilites.css.map */

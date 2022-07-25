@@ -1,0 +1,483 @@
+@import "../styles/nav";
+@import "../styles/footer";
+
+.showcase {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/header-images/wiser-by-the-mile-1Frndjy7tkM-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    .showcase-content {
+        color: white;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: contact 2s ease alternate;
+
+
+        h5 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-family: "Gill Sans Nova Bold";
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+}
+
+#poster-bagswala {
+    min-height: 100vh;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+
+        h5 {
+            font-size: 2.5rem;
+            font-family: "Gill Sans Nova Bold";
+            text-transform: capitalize;
+            color: $purple-color;
+            letter-spacing: 1px;
+        }
+
+        span {
+            font-size: 1.5rem;
+            font-family: $font-family-9;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+}
+
+#call-to-action {
+    min-height: auto;
+    padding: 2rem 0;
+
+    .call-to-action {
+        background-color: $DigiDenim-color;
+        padding: 1.3rem 0;
+
+        .cta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h6 {
+                font-size: 1.2rem;
+                font-weight: 500;
+                font-family: $font-family-3;
+                text-transform: capitalize;
+                letter-spacing: 1.2px;
+                color: $soflilac-color;
+            }
+
+            .cta-call {
+                width: 30%;
+                text-align: center;
+
+                .btn-call {
+                    background-color: $purple-color;
+                    color: $soflilac-color;
+                    border-radius: 2px !important;
+                    font-size: 1rem;
+                    padding: 0.8rem 1.5rem;
+                    font-family: $font-family-3;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    transition: all 0.5s ease;
+                }
+
+                .btn-call:hover {
+                    background-color: $dark-hover;
+                }
+            }
+        }
+    }
+}
+
+#category {
+    min-height: 100vh;
+
+    .category-title {
+        padding: 2rem 0;
+
+        h5 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: "Gill Sans Nova Bold";
+            text-transform: capitalize;
+            color: $purple-color;
+            letter-spacing: 1px;
+        }
+    }
+
+    .owl-carousel {
+
+        .owl-nav {
+
+            .owl-next,
+            .owl-prev {
+                position: absolute;
+                top: 50%;
+                font-size: 3rem;
+                color: $DigiDenim-color;
+            }
+
+            button {
+                outline: none;
+                border: none;
+            }
+
+            .owl-next:hover,
+            .owl-prev:hover {
+                background-color: transparent !important;
+                color: green;
+            }
+
+            .owl-prev {
+                left: 0;
+            }
+
+            .owl-next {
+                right: 0;
+            }
+        }
+
+        .owl-dots {
+            display: none;
+        }
+    }
+}
+
+#sample {
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+#process {
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: $soflilac-color;
+
+    .title {
+        text-align: center;
+        padding: 2rem 0;
+
+        h5 {
+            font-size: 2.5rem;
+            font-family: "Gill Sans Nova Bold";
+            text-transform: capitalize;
+            color: $purple-color;
+            letter-spacing: 1px;
+        }
+
+        span {
+            font-size: 1.5rem;
+            font-family: $font-family-9;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+
+    .row {
+        margin-bottom: 0.5rem;
+
+        strong {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            color: $DigiDenim-color;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .descriptions {
+            padding: 1rem 0;
+
+            p {
+                line-height: 1.6rem;
+                font-size: 15px;
+                justify-content: center;
+                font-family: $font-family-1;
+                letter-spacing: 1px;
+                color: $purple-color;
+            }
+        }
+    }
+}
+
+#bulk-inq {
+    min-height: 30vh;
+
+    .row {
+        padding: 2rem 0;
+
+        .get-in-touch {
+            h6 {
+                font-size: 2rem;
+                text-transform: capitalize;
+                font-weight: bold;
+                color: $purple-color;
+            }
+        }
+
+    }
+
+    .ne {
+        padding: 0 0 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .what-logo {
+            width: 150px;
+        }
+
+        h6 {
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: capitalize;
+            font-weight: bold;
+            color: $DigiDenim-color;
+        }
+    }
+}
+
+#contact {
+    min-height: 60vh;
+    overflow: hidden;
+    background-color: $purple-color;
+
+    .row {
+        padding: 2.5rem 0;
+
+        .contact-section {
+            padding: 1rem;
+
+            h5 {
+                color: $soflilac-color;
+                text-transform: capitalize;
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            p {
+                color: $soflilac-color;
+                text-transform: capitalize;
+                letter-spacing: 1.5px;
+                font-size: 1rem;
+                font-family: $font-family-3;
+                line-height: 1.3rem;
+                font-weight: 500;
+
+                strong {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .form {
+            form {
+                .one-line {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    padding: 1rem 0;
+
+                    input {
+                        background-color: transparent !important;
+                        display: block;
+                        padding: 0.3rem 0;
+                        margin: 0 2rem 0 0;
+                        border: 1px solid rgba(202, 199, 199, 0.164);
+                    }
+
+                    input:focus {
+                        outline: none;
+                        border: 1px solid rgba(255, 253, 253, 0.5);
+                    }
+
+                    input[type=text] {
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        color: $soflilac-color;
+                    }
+
+                    ::placeholder {
+                        font-size: 0.8rem;
+                        letter-spacing: 1px;
+                        color: $soflilac-color;
+                        text-transform: uppercase;
+                    }
+                }
+
+                div {
+                    textarea {
+                        background-color: transparent !important;
+                        width: 60%;
+                        border: 1px solid rgba(255, 255, 255, 0.171);
+                        border-radius: 5px;
+                        resize: none;
+                    }
+
+                    textarea:focus {
+                        outline: none;
+                        border: 1px solid rgba(252, 252, 252, 0.5);
+                    }
+
+                    textarea[type=text] {
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        color: $purple-color;
+                    }
+
+                    ::placeholder {
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: $soflilac-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes contact {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width:786px) {
+
+    #poster-bagswala {
+        min-height: 60vh;
+        padding: 2rem 0;
+    }
+
+    #poster-bagswala .title h5 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #poster-bagswala .title span {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+
+    #process .title h5 {
+        font-size: 2rem;
+    }
+
+    #process .title span {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    #process .row strong {
+        text-align: center !important;
+    }
+
+    #process .row {
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+
+    #process .row .descriptions p span {
+        display: none;
+    }
+
+    #call-to-action {
+        padding: 0;
+    }
+
+    #call-to-action .call-to-action .cta,
+    #call-to-action .call-to-action .cta {
+
+        h6 {
+            font-size: 1rem;
+            letter-spacing: 0;
+        }
+
+        .cta-call {
+            width: 50%;
+
+            .btn-call {
+                font-size: 0.5rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+
+
+    #bulk-inq {
+        .row {
+
+            .col-4 {
+                h6 {
+                    font-size: 2.2rem;
+                }
+            }
+
+            .ne {
+                h6 {}
+            }
+        }
+
+        .ne {
+            padding-bottom: 2rem;
+            flex-direction: column;
+
+            h6 {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    #contact .row .form form .one-line {
+        grid-template-columns: 1fr;
+    }
+
+    #contact .row .form form .one-line div {
+        display: block;
+        padding: 1rem 0;
+    }
+
+    #contact .row .form form .one-line div input {
+        width: 100%;
+    }
+
+    #contact .row .form form div textarea {
+        width: 100%;
+    }
+
+    #sample {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}

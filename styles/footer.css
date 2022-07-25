@@ -1,0 +1,234 @@
+#footer {
+  background-color: #4cbfa6;
+  color: #301008;
+}
+
+#footer .parent-part {
+  padding: 4.5rem 0 6rem 0;
+}
+
+#footer .parent-part .first-part .social-info {
+  font-size: 1.3rem;
+}
+
+#footer .parent-part .first-part .social-info .fa-instagram:hover {
+  color: #ff00bf;
+}
+
+#footer .parent-part .first-part .social-info .fa-facebook:hover {
+  color: #006eff;
+}
+
+#footer .parent-part .first-part .social-info .fa-youtube:hover {
+  color: #ff0202;
+}
+
+#footer .parent-part .first-part .social-info .fa-twitter:hover {
+  color: #569af3;
+}
+
+#footer .parent-part .first-part .social-info a i {
+  color: #301008;
+}
+
+#footer .parent-part .second-part h5 {
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-family: "Helvetica";
+  font-weight: 700;
+}
+
+#footer .parent-part .second-part .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .parent-part .second-part .link ul {
+  padding: 1rem 10rem 0 0;
+}
+
+#footer .parent-part .second-part .link ul li a {
+  color: #301008;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+#footer .parent-part .second-part .link ul li a:hover {
+  color: #190138;
+}
+
+#footer .parent-part .second-part .link ul li a:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #482673;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#footer .parent-part .second-part .link ul li a:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#footer .parent-part .third-part {
+  padding: 0 1rem;
+}
+
+#footer .parent-part .third-part .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer .parent-part .third-part .address p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+#footer .parent-part .third-part .address div a .fas {
+  color: #482673;
+  font-size: 1.2rem;
+}
+
+#footer .parent-part .third-part .address div span {
+  font-size: 1rem;
+  color: #301008;
+}
+
+#footer .copyright {
+  padding: 1.8rem;
+  background-color: #f6ebf4;
+}
+
+#footer .copyright .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#footer .copyright .copy .footer-social {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .copyright .copy .footer-social a .fab {
+  color: #482673;
+}
+
+#footer .copyright .copy .footer-social a .fa-instagram:hover {
+  color: #ff00bf;
+}
+
+#footer .copyright .copy .footer-social a .fa-facebook:hover {
+  color: #006eff;
+}
+
+#footer .copyright .copy .footer-social a .fa-youtube:hover {
+  color: #ff0202;
+}
+
+#footer .copyright .copy .footer-social a .fa-twitter:hover {
+  color: #569af3;
+}
+
+@media screen and (max-width: 786px) {
+  .parent-part {
+    padding: 2rem 0 !important;
+  }
+  .parent-part .first-part .social-info {
+    text-align: center;
+  }
+  .parent-part .second-part {
+    margin-top: 1rem;
+  }
+  .parent-part .second-part h5 {
+    text-align: center !important;
+  }
+  .parent-part .second-part .link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .parent-part .second-part .link ul {
+    padding: 0.5rem 0 !important;
+  }
+  .parent-part .second-part .link ul li {
+    padding: 0 0 1rem 0 !important;
+  }
+  .parent-part .third-part .address {
+    text-align: center;
+  }
+  .parent-part .third-part .address p {
+    font-size: 1rem !important;
+    letter-spacing: 1px;
+  }
+  .parent-part .third-part .address div {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #footer .copyright {
+    padding: 0.3rem !important;
+  }
+  #footer .copyright .copy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #footer .copyright .copy strong {
+    text-align: center;
+    font-size: 0.8rem !important;
+  }
+  #footer .copyright .copy .footer-social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  #footer .copyright .copy .footer-social a {
+    padding: 0 1rem 0 0;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
